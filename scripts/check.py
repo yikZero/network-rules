@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Publication contract tests, including privacy and format parity."""
-import copy, ipaddress, json, subprocess, unittest
+import copy, ipaddress, json, os, subprocess, unittest
 import rules
 
 class PublicationTests(unittest.TestCase):
     def test_public_author_metadata_uses_noreply(self):
         values=subprocess.check_output(['git','log','--all','--format=%ae%n%ce'],cwd=rules.ROOT,text=True).splitlines()
-        current=subprocess.check_output(['git','var','GIT_AUTHOR_IDENT'],cwd=rules.ROOT,text=True).split('<',1)[1].split('>',1)[0]
-        self.assertTrue(all(value.endswith('@users.noreply.github.com') or value=='noreply@github.com' for value in values+[current]),'Use a GitHub noreply author before committing public changes')
+        if not os.environ.get('GITHUB_ACTIONS'):
+            values.append(subprocess.check_output(['git','var','GIT_AUTHOR_IDENT'],cwd=rules.ROOT,text=True).split('<',1)[1].split('>',1)[0])
+        self.assertTrue(all(value.endswith('@users.noreply.github.com') or value=='noreply@github.com' for value in values),'Use a GitHub noreply author before committing public changes')
 
     def test_owned_sources_are_publishable(self):
         docs, _ = rules.documents()

@@ -4,8 +4,9 @@ Generic service matching data for Surge and sing-box. The same reviewed sources
 generate policy-free Surge lists, sing-box JSON and binary SRS files.
 
 This repository contains classification data, not browsing logs. It does not
-contain proxy nodes, subscriptions, credentials, device profiles, private network
-addresses or private service endpoints. A list can still indicate service interests;
+contain proxy nodes, subscriptions, credentials, device profiles, device-specific
+addresses or private service endpoints. Generic reserved ranges occur only in
+validation code and tests. A list can still indicate service interests;
 do not treat public classification data as private.
 
 ## Maintenance

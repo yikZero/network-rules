@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib, ipaddress, json, os, re, urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE_VERSION = '1.14.4'
+CORE_VERSION = json.loads((ROOT / 'tools.json').read_text())['sing-box']['version']
 KINDS = {'domain': 'DOMAIN', 'domain_suffix': 'DOMAIN-SUFFIX',
          'domain_keyword': 'DOMAIN-KEYWORD', 'ip_cidr': 'IP-CIDR'}
 PRIVATE_LABEL = re.compile(r'(^|[.-])(internal|intranet|corp|lan|local|localhost|private|home)([.-]|$)', re.I)

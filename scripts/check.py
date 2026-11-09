@@ -4,6 +4,18 @@ import copy, ipaddress, json, os, subprocess, unittest
 import rules
 
 class PublicationTests(unittest.TestCase):
+    def test_tool_versions_urls_and_checksums_are_consistent(self):
+        catalog=json.loads((rules.ROOT/'tools.json').read_text())
+        providers={'sing-box':'SagerNet/sing-box','gitleaks':'gitleaks/gitleaks'}
+        for name,record in catalog.items():
+            version=record['version']
+            self.assertRegex(version,r'^\d+\.\d+\.\d+$')
+            for platform,asset in record.items():
+                if platform=='version':continue
+                self.assertTrue(asset['url'].startswith('https://github.com/'+providers[name]+'/releases/download/v'+version+'/'))
+                self.assertIn('_'+version+'_' if name=='gitleaks' else '-'+version+'-',asset['url'].rsplit('/',1)[1])
+                self.assertRegex(asset['sha256'],r'^[a-f0-9]{64}$')
+
     def test_public_author_metadata_uses_noreply(self):
         values=subprocess.check_output(['git','log','--all','--format=%ae%n%ce'],cwd=rules.ROOT,text=True).splitlines()
         if not os.environ.get('GITHUB_ACTIONS'):

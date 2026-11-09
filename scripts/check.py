@@ -59,6 +59,8 @@ class PublicationTests(unittest.TestCase):
     def test_ai_source_stays_domain_only_and_exceptions_stay_separate(self):
         docs, _ = rules.documents(); ai = docs['ai']; overrides = docs['proxy-overrides']
         self.assertTrue(all(set(row) <= {'domain', 'domain_suffix'} for row in ai['rules']))
+        domains={value for row in ai['rules'] for values in row.values() for value in values}
+        self.assertTrue({'chatgpt.com','openai.com','claude.ai','gemini.google.com'} <= domains)
         self.assertTrue(any('cindy.cn' in row.get('domain_suffix', []) for row in overrides['rules']))
         self.assertFalse(any('cindy.cn' in row.get('domain_suffix', []) for row in ai['rules']))
         self.assertFalse(any('openai' in row.get('domain_keyword', []) for row in ai['rules']))

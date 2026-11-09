@@ -1,0 +1,15 @@
+# Generated matching data; contains no policy or device configuration.
+DOMAIN-SUFFIX,plex.tv
+DOMAIN,v3-as-cf.micu.hk
+DOMAIN-SUFFIX,media.micu.hk
+DOMAIN-SUFFIX,media1.micu.hk
+DOMAIN-SUFFIX,media2.micu.hk
+DOMAIN-SUFFIX,media3.micu.hk
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,ubuntu.com
+DOMAIN-SUFFIX,orbstack.dev
+DOMAIN-SUFFIX,setapp.com
+DOMAIN-SUFFIX,bluestacks.com
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,huggingface.co

@@ -1,0 +1,75 @@
+{
+  "rules": [
+    {
+      "domain_suffix": [
+        "plex.tv"
+      ]
+    },
+    {
+      "domain": [
+        "v3-as-cf.micu.hk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "media.micu.hk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "media1.micu.hk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "media2.micu.hk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "media3.micu.hk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "twimg.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "npmjs.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ubuntu.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "orbstack.dev"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "setapp.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "bluestacks.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "hf.co"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "huggingface.co"
+      ]
+    }
+  ],
+  "version": 3
+}

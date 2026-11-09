@@ -1,0 +1,16 @@
+# Generated matching data; contains no policy or device configuration.
+DOMAIN,metadata.provider.plex.tv
+DOMAIN,metadata-static.plex.tv
+DOMAIN-SUFFIX,metadata.provider.plex.tv
+DOMAIN-SUFFIX,analytics.plex.tv
+DOMAIN-SUFFIX,metadata-static.plex.tv
+DOMAIN-SUFFIX,meta.plex.tv
+DOMAIN-SUFFIX,un.ms
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okex.org
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okx.ac
+DOMAIN-SUFFIX,okx.cab
+DOMAIN-SUFFIX,okx-httpdns.com
+DOMAIN-SUFFIX,okx-doh.com
+DOMAIN-SUFFIX,oklink.com

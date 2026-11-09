@@ -1,0 +1,80 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "metadata.provider.plex.tv"
+      ]
+    },
+    {
+      "domain": [
+        "metadata-static.plex.tv"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "metadata.provider.plex.tv"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "analytics.plex.tv"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "metadata-static.plex.tv"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "meta.plex.tv"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "un.ms"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okex.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okex.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okx.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okx.ac"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okx.cab"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okx-httpdns.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okx-doh.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "oklink.com"
+      ]
+    }
+  ],
+  "version": 3
+}

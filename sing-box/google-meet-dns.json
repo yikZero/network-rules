@@ -1,0 +1,70 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "meet.google.com"
+      ]
+    },
+    {
+      "domain": [
+        "meet.new"
+      ]
+    },
+    {
+      "domain": [
+        "meetings.clients6.google.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "meetings.googleapis.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "hangouts.googleapis.com"
+      ]
+    },
+    {
+      "domain": [
+        "stream.meet.google.com"
+      ]
+    },
+    {
+      "domain": [
+        "workspace.turns.goog"
+      ]
+    },
+    {
+      "domain": [
+        "meet.turns.goog"
+      ]
+    },
+    {
+      "domain": [
+        "stun.l.google.com"
+      ]
+    },
+    {
+      "domain": [
+        "stun1.l.google.com"
+      ]
+    },
+    {
+      "domain": [
+        "stun2.l.google.com"
+      ]
+    },
+    {
+      "domain": [
+        "stun3.l.google.com"
+      ]
+    },
+    {
+      "domain": [
+        "stun4.l.google.com"
+      ]
+    }
+  ],
+  "version": 3
+}

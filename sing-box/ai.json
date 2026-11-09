@@ -1,0 +1,71 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "ai.google.dev",
+        "alkalicore-pa.clients6.google.com",
+        "alkalimakersuite-pa.clients6.google.com",
+        "chat.openai.com.cdn.cloudflare.net",
+        "cloudcode-pa.googleapis.com",
+        "geller-pa.googleapis.com",
+        "gemini.gstatic.com",
+        "geminiweb-pa.googleapis.com",
+        "openai-api.arkoselabs.com",
+        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "openaicomproductionae4b.blob.core.windows.net",
+        "proactivebackend-pa.googleapis.com",
+        "production-openaicom-storage.azureedge.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ai.com",
+        "aistudio.google.com",
+        "anthropic.com",
+        "chat.com",
+        "chatgpt.com",
+        "chatgpt.livekit.cloud",
+        "claude.ai",
+        "claude.app",
+        "claude.com",
+        "claudemcpcontent.com",
+        "claudeusercontent.com",
+        "clipdrop.co",
+        "conductor.build",
+        "cursor-cdn.com",
+        "cursor.com",
+        "cursor.sh",
+        "cursorapi.com",
+        "cursorvm.com",
+        "deepmind.com",
+        "deepmind.google",
+        "dify.ai",
+        "gemini.google.com",
+        "generativeai.google",
+        "generativelanguage.googleapis.com",
+        "githubcopilot.com",
+        "grok.com",
+        "groq.com",
+        "jasper.ai",
+        "makersuite.google.com",
+        "meta.ai",
+        "notebooklm.google",
+        "notebooklm.google.com",
+        "oaistatic.com",
+        "oaistatsig.com",
+        "oaiusercontent.com",
+        "openai.com",
+        "openaiapi-site.azureedge.net",
+        "openaicom.imgix.net",
+        "openart.ai",
+        "openrouter.ai",
+        "perplexity.ai",
+        "poe.com",
+        "sora.com",
+        "suno.com",
+        "x.ai"
+      ]
+    }
+  ],
+  "version": 3
+}

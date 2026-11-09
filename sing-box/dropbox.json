@@ -1,0 +1,90 @@
+{
+  "rules": [
+    {
+      "domain_suffix": [
+        "db.tt"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropbox-dns.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropbox.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropbox.tech"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropbox.zendesk.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxapi.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxbusiness.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxcaptcha.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxforum.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxforums.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxinsiders.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxmail.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxpartners.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxstatic.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dropboxusercontent.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "getdropbox.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "paper-attachments.s3.amazonaws.com"
+      ]
+    }
+  ],
+  "version": 3
+}

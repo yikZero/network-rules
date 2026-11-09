@@ -1,0 +1,241 @@
+{
+  "compiler": "1.14.4",
+  "files": {
+    "sing-box/ai.json": {
+      "bytes": 1830,
+      "sha256": "8e1e29f49c7b1e9acc0a2df83ae3b0162c48adfa452907ac74656fb73fdfb86b"
+    },
+    "sing-box/ai.srs": {
+      "bytes": 738,
+      "sha256": "9fea895f9e02c1589ada1c69d1b4b6b17c3faac4148b44f9ce605b7a9927bac7"
+    },
+    "sing-box/bulk.json": {
+      "bytes": 988,
+      "sha256": "9784aae5f49365ed4448988f700a8da8e29fc32e8bf7eab423e873a606270b70"
+    },
+    "sing-box/bulk.srs": {
+      "bytes": 212,
+      "sha256": "30bc3851474ce1b170859a7d92e02c45ade74402d12c99d0ed5ab3931b8fcbff"
+    },
+    "sing-box/design.json": {
+      "bytes": 382,
+      "sha256": "f205b7d50378de7ad869c6304b0fb3f3325c0ffe6b0dfefd1a116bf7f139b28a"
+    },
+    "sing-box/design.srs": {
+      "bytes": 97,
+      "sha256": "97c4d9e577a397be75e184c3d165bd64af45dc3750bda07c8594716bcf25e308"
+    },
+    "sing-box/direct.json": {
+      "bytes": 445,
+      "sha256": "887ed9659f0fd31802c393d7c635c4674763050d5d82443273e3eed7cdbf2c13"
+    },
+    "sing-box/direct.srs": {
+      "bytes": 116,
+      "sha256": "3da6e0c0117e45084fc1ffd7cd399d0d001e344a2fb544d6ecaf5ffb465959be"
+    },
+    "sing-box/dropbox.json": {
+      "bytes": 1291,
+      "sha256": "c360cf5836e22b18c9259b6e55c0273512bb0a1a8a11ea65675d5d31fa3a800c"
+    },
+    "sing-box/dropbox.srs": {
+      "bytes": 265,
+      "sha256": "10e7553d432510ff757bb65a4a01d17b38283a95a81d0a1b41098e19e35a04e6"
+    },
+    "sing-box/google-meet-dns.json": {
+      "bytes": 943,
+      "sha256": "a4a7f7454ea2e39221eb8c83896733d0dacc9a28b38b2762bb986361df721036"
+    },
+    "sing-box/google-meet-dns.srs": {
+      "bytes": 200,
+      "sha256": "4a6946301f425b4c5c5c4509b5cba77930eb5ccb74827cb46cba640ad0a72871"
+    },
+    "sing-box/google-meet.json": {
+      "bytes": 1365,
+      "sha256": "a3be0d23bf80a776954ea3ac7a36ad62164c3c8c6742b95e706d588e87c653cb"
+    },
+    "sing-box/google-meet.srs": {
+      "bytes": 266,
+      "sha256": "7fdb0c248deb47ef938f52a7220db2b6ac1310742f5a3634f505070677e83894"
+    },
+    "sing-box/proxy-overrides.json": {
+      "bytes": 257,
+      "sha256": "3e37ade0f68e120c217e25c8491c577a1d667a2329b36ca2ea5d360605347d1f"
+    },
+    "sing-box/proxy-overrides.srs": {
+      "bytes": 106,
+      "sha256": "530af638306e24570494d65c0d59cb125d05b07bf72707e84f3bf9ee0406b0bd"
+    },
+    "sing-box/proxy.json": {
+      "bytes": 1079,
+      "sha256": "28472205040407e12993fe92e2c1a30d0b226b826682432366bc7e898fe4475a"
+    },
+    "sing-box/proxy.srs": {
+      "bytes": 235,
+      "sha256": "7b87b698a81122abf337e9e4c6404711f0fdb15005a72cb0c8afc9637a503d3c"
+    },
+    "sing-box/work.json": {
+      "bytes": 2044,
+      "sha256": "07b9eb6feb42ad0dd072463021f769d56d62ac6983944cb91e1a128c0722d882"
+    },
+    "sing-box/work.srs": {
+      "bytes": 304,
+      "sha256": "8b384c74cb368ad8c1e33421ded2e74dd171e60a7e7027817c90247555246467"
+    },
+    "surge/ai.list": {
+      "bytes": 1865,
+      "sha256": "4abe75de4e0dfd77866e88129ba80c61805bad3087c7d096d315fc7a173033da"
+    },
+    "surge/bulk.list": {
+      "bytes": 435,
+      "sha256": "4555814a766f64948551c77170378e39a6bbc91694a4167fea1463c828aa732d"
+    },
+    "surge/design.list": {
+      "bytes": 225,
+      "sha256": "9b8715e0aea7eda98cf8a4503b59f11eaeb62deed53ea48238de5e21480bf547"
+    },
+    "surge/direct.list": {
+      "bytes": 228,
+      "sha256": "a8951d7f294386256da4aed20c0ab370f846422991f3956ce7c771b81472f2f5"
+    },
+    "surge/dropbox.list": {
+      "bytes": 612,
+      "sha256": "47108f061d4f04fecd9376bde79e0c11a30c2eea11e39abd135d59b607202bf1"
+    },
+    "surge/google-meet.list": {
+      "bytes": 671,
+      "sha256": "263211fe8ceac72468ddd9c6e18a430e39cd48a31fac54eb0caeb1f864e227d4"
+    },
+    "surge/proxy-overrides.list": {
+      "bytes": 169,
+      "sha256": "fb3f1a3e435bc2d9bee6bb624b466dcd53f1e6cf0fd8db014e81ffe3a7aef0ac"
+    },
+    "surge/proxy.list": {
+      "bytes": 484,
+      "sha256": "f85f4421768afb5454e06ef29a1232424801fc0d3d60bb3a54d2c857de3a1d63"
+    },
+    "surge/work.list": {
+      "bytes": 861,
+      "sha256": "cb9244b09a96c7356f29a9443e9c19f67d6db1afa7c78284d4dfce29559eb9fb"
+    }
+  },
+  "schema": 1,
+  "sets": {
+    "ai": {
+      "dns": {
+        "binary": "sing-box/ai.srs",
+        "source": "sing-box/ai.json"
+      },
+      "entries": 58,
+      "route": {
+        "binary": "sing-box/ai.srs",
+        "source": "sing-box/ai.json"
+      },
+      "surge": "surge/ai.list"
+    },
+    "bulk": {
+      "dns": {
+        "binary": "sing-box/bulk.srs",
+        "source": "sing-box/bulk.json"
+      },
+      "entries": 14,
+      "route": {
+        "binary": "sing-box/bulk.srs",
+        "source": "sing-box/bulk.json"
+      },
+      "surge": "surge/bulk.list"
+    },
+    "design": {
+      "dns": {
+        "binary": "sing-box/design.srs",
+        "source": "sing-box/design.json"
+      },
+      "entries": 5,
+      "route": {
+        "binary": "sing-box/design.srs",
+        "source": "sing-box/design.json"
+      },
+      "surge": "surge/design.list"
+    },
+    "direct": {
+      "dns": {
+        "binary": "sing-box/direct.srs",
+        "source": "sing-box/direct.json"
+      },
+      "entries": 6,
+      "route": {
+        "binary": "sing-box/direct.srs",
+        "source": "sing-box/direct.json"
+      },
+      "surge": "surge/direct.list"
+    },
+    "dropbox": {
+      "dns": {
+        "binary": "sing-box/dropbox.srs",
+        "source": "sing-box/dropbox.json"
+      },
+      "entries": 17,
+      "route": {
+        "binary": "sing-box/dropbox.srs",
+        "source": "sing-box/dropbox.json"
+      },
+      "surge": "surge/dropbox.list"
+    },
+    "google-meet": {
+      "dns": {
+        "binary": "sing-box/google-meet-dns.srs",
+        "source": "sing-box/google-meet-dns.json"
+      },
+      "entries": 19,
+      "route": {
+        "binary": "sing-box/google-meet.srs",
+        "source": "sing-box/google-meet.json"
+      },
+      "surge": "surge/google-meet.list"
+    },
+    "proxy": {
+      "dns": {
+        "binary": "sing-box/proxy.srs",
+        "source": "sing-box/proxy.json"
+      },
+      "entries": 15,
+      "route": {
+        "binary": "sing-box/proxy.srs",
+        "source": "sing-box/proxy.json"
+      },
+      "surge": "surge/proxy.list"
+    },
+    "proxy-overrides": {
+      "dns": {
+        "binary": "sing-box/proxy-overrides.srs",
+        "source": "sing-box/proxy-overrides.json"
+      },
+      "entries": 4,
+      "route": {
+        "binary": "sing-box/proxy-overrides.srs",
+        "source": "sing-box/proxy-overrides.json"
+      },
+      "surge": "surge/proxy-overrides.list"
+    },
+    "work": {
+      "dns": {
+        "binary": "sing-box/work.srs",
+        "source": "sing-box/work.json"
+      },
+      "entries": 29,
+      "route": {
+        "binary": "sing-box/work.srs",
+        "source": "sing-box/work.json"
+      },
+      "surge": "surge/work.list"
+    }
+  },
+  "upstreams": {
+    "dropbox": {
+      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+      "path": "rule/Surge/Dropbox/Dropbox.list",
+      "repository": "blackmatrix7/ios_rule_script",
+      "sha256": "5e66a0c3798c02e8fdbdfd366c178b3273f03746e677193c35b5e4a411b6cbde"
+    }
+  },
+  "version": "210abc6d8346dfc76b0f53f0"
+}

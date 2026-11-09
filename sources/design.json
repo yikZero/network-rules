@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "kujiale.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "qunhequnhe.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "meijian.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "kukongjian.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "qunhequnhe"
+      ]
+    }
+  ],
+  "surge_options": {
+    "domain_keyword:qunhequnhe": [
+      "extended-matching"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "forum.cursor.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "deepseek.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cindy.app",
+        "cindy.cn"
+      ]
+    }
+  ]
+}

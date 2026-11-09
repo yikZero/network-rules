@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "slack-core.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slack-edge.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slack-files.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slack-imgs.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slack-msgs.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slack-redir.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slack.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slackb.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slackcertified.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slackdemo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "slackhq.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "chime.aws"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "atlassian.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "atlassian.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "bitbucket.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "statuspage.io"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "trello.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "trellocdn.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "atl-paas.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "figma.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "posthog.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "mixpanel.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "revenuecat.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "revenuecat.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "supabase.co"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "supabase.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "vercel.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "vercel.sh"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "vercel.live"
+      ]
+    }
+  ]
+}

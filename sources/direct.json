@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "imigrasi.go.id"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "baliprov.go.id"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "m-team.cc"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "m-team.io"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "tv.micu.hk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "tv1.micu.hk"
+      ]
+    }
+  ]
+}

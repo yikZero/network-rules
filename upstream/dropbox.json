@@ -1,0 +1,98 @@
+{
+  "document": {
+    "rules": [
+      {
+        "domain_suffix": [
+          "db.tt"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropbox-dns.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropbox.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropbox.tech"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropbox.zendesk.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxapi.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxbusiness.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxcaptcha.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxforum.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxforums.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxinsiders.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxmail.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxpartners.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxstatic.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "dropboxusercontent.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "getdropbox.com"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "paper-attachments.s3.amazonaws.com"
+        ]
+      }
+    ],
+    "version": 3
+  },
+  "provenance": {
+    "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+    "path": "rule/Surge/Dropbox/Dropbox.list",
+    "repository": "blackmatrix7/ios_rule_script",
+    "sha256": "5e66a0c3798c02e8fdbdfd366c178b3273f03746e677193c35b5e4a411b6cbde"
+  }
+}

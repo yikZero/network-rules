@@ -1,0 +1,11 @@
+{
+  "sources": [
+    {
+      "id": "dropbox",
+      "repository": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Surge/Dropbox/Dropbox.list",
+      "min_rules": 3
+    }
+  ]
+}

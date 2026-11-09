@@ -118,6 +118,7 @@
       "sha256": "cb9244b09a96c7356f29a9443e9c19f67d6db1afa7c78284d4dfce29559eb9fb"
     }
   },
+  "revision": "rules-210abc6d8346dfc76b0f53f0",
   "schema": 1,
   "sets": {
     "ai": {

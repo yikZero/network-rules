@@ -10,3 +10,5 @@
 - Publish only the allowlisted `dist/` tree. Keep branch publication serialized and
   retain previous commits so consumers can pin a complete, verified version.
 - Rule publication does not deploy device configuration or change proxy nodes.
+- Use a GitHub noreply author email for public commits; checks also inspect history
+  and the current author identity so local default contact information is not copied.

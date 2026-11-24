@@ -3,10 +3,13 @@
     {
       "domain": [
         "ai.google.dev",
+        "aicode.googleapis.com",
         "alkalicore-pa.clients6.google.com",
         "alkalimakersuite-pa.clients6.google.com",
+        "businessaicode.googleapis.com",
         "chat.openai.com.cdn.cloudflare.net",
         "cloudcode-pa.googleapis.com",
+        "daily-cloudcode-pa.googleapis.com",
         "geller-pa.googleapis.com",
         "gemini.gstatic.com",
         "geminiweb-pa.googleapis.com",
@@ -22,6 +25,7 @@
         "ai.com",
         "aistudio.google.com",
         "anthropic.com",
+        "antigravity.google",
         "chat.com",
         "chatgpt.com",
         "chatgpt.livekit.cloud",

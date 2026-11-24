@@ -2,12 +2,12 @@
   "compiler": "1.14.4",
   "files": {
     "sing-box/ai.json": {
-      "bytes": 1830,
-      "sha256": "8e1e29f49c7b1e9acc0a2df83ae3b0162c48adfa452907ac74656fb73fdfb86b"
+      "bytes": 1979,
+      "sha256": "e0bb0ed1f3537dc5373661412912dab8d680860eb3744b956f5e0b5a0200c755"
     },
     "sing-box/ai.srs": {
-      "bytes": 738,
-      "sha256": "9fea895f9e02c1589ada1c69d1b4b6b17c3faac4148b44f9ce605b7a9927bac7"
+      "bytes": 774,
+      "sha256": "4434a1000a1085e3369286885c8222653bcbc4176ac8d136b29ac5cbb0f51f6b"
     },
     "sing-box/bulk.json": {
       "bytes": 988,
@@ -82,8 +82,8 @@
       "sha256": "8b384c74cb368ad8c1e33421ded2e74dd171e60a7e7027817c90247555246467"
     },
     "surge/ai.list": {
-      "bytes": 1865,
-      "sha256": "4abe75de4e0dfd77866e88129ba80c61805bad3087c7d096d315fc7a173033da"
+      "bytes": 2005,
+      "sha256": "2c78053e69f9a908ae6a7b65af756ef29611ade34dae2fa5260824a2ca997b8d"
     },
     "surge/bulk.list": {
       "bytes": 435,
@@ -118,7 +118,7 @@
       "sha256": "cb9244b09a96c7356f29a9443e9c19f67d6db1afa7c78284d4dfce29559eb9fb"
     }
   },
-  "revision": "rules-210abc6d8346dfc76b0f53f0",
+  "revision": "rules-63a3c2760acfba061431333e",
   "schema": 1,
   "sets": {
     "ai": {
@@ -126,7 +126,7 @@
         "binary": "sing-box/ai.srs",
         "source": "sing-box/ai.json"
       },
-      "entries": 58,
+      "entries": 62,
       "route": {
         "binary": "sing-box/ai.srs",
         "source": "sing-box/ai.json"
@@ -238,5 +238,5 @@
       "sha256": "5e66a0c3798c02e8fdbdfd366c178b3273f03746e677193c35b5e4a411b6cbde"
     }
   },
-  "version": "210abc6d8346dfc76b0f53f0"
+  "version": "63a3c2760acfba061431333e"
 }

@@ -25,7 +25,7 @@ class PublicationTests(unittest.TestCase):
     def test_owned_sources_are_publishable(self):
         docs, _ = rules.documents()
         self.assertEqual(set(docs), {'ai', 'proxy-overrides', 'direct', 'proxy', 'bulk',
-                                    'google-meet', 'work', 'design', 'dropbox'})
+                                    'google-meet', 'work', 'design', 'dropbox', 'prime-video'})
         for name, doc in docs.items():
             exported = rules.parse_surging(rules.surge(doc))
             flatten = lambda d: {(k, v) for row in d['rules'] for k, values in row.items() for v in values}

@@ -10,12 +10,12 @@
       "sha256": "4434a1000a1085e3369286885c8222653bcbc4176ac8d136b29ac5cbb0f51f6b"
     },
     "sing-box/bulk.json": {
-      "bytes": 2083,
-      "sha256": "f6f401266bb6994312bf460db7c1e08f25e78131c6c68342c101f8f8ea25de23"
+      "bytes": 988,
+      "sha256": "9784aae5f49365ed4448988f700a8da8e29fc32e8bf7eab423e873a606270b70"
     },
     "sing-box/bulk.srs": {
-      "bytes": 415,
-      "sha256": "9f04a699ddd88fece8cfa0f1079953da8f7aceb580b11ee66c8b5b5bab06f4b4"
+      "bytes": 212,
+      "sha256": "30bc3851474ce1b170859a7d92e02c45ade74402d12c99d0ed5ab3931b8fcbff"
     },
     "sing-box/design.json": {
       "bytes": 382,
@@ -94,8 +94,8 @@
       "sha256": "2c78053e69f9a908ae6a7b65af756ef29611ade34dae2fa5260824a2ca997b8d"
     },
     "surge/bulk.list": {
-      "bytes": 900,
-      "sha256": "9ae3575bdb013acd7f28a76ebebc445cca79113b43bb4fb8b9b0af5b402f3b66"
+      "bytes": 435,
+      "sha256": "4555814a766f64948551c77170378e39a6bbc91694a4167fea1463c828aa732d"
     },
     "surge/design.list": {
       "bytes": 225,
@@ -130,7 +130,7 @@
       "sha256": "cb9244b09a96c7356f29a9443e9c19f67d6db1afa7c78284d4dfce29559eb9fb"
     }
   },
-  "revision": "rules-f6ced00c29631c8e4e1c609c",
+  "revision": "rules-50cb0ab4de6d4459867894a3",
   "schema": 1,
   "sets": {
     "ai": {
@@ -150,7 +150,7 @@
         "binary": "sing-box/bulk.srs",
         "source": "sing-box/bulk.json"
       },
-      "entries": 29,
+      "entries": 14,
       "route": {
         "binary": "sing-box/bulk.srs",
         "source": "sing-box/bulk.json"
@@ -262,5 +262,5 @@
       "sha256": "5e66a0c3798c02e8fdbdfd366c178b3273f03746e677193c35b5e4a411b6cbde"
     }
   },
-  "version": "f6ced00c29631c8e4e1c609c"
+  "version": "50cb0ab4de6d4459867894a3"
 }

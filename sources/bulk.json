@@ -70,6 +70,81 @@
       "domain_suffix": [
         "huggingface.co"
       ]
+    },
+    {
+      "domain_suffix": [
+        "primevideo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "amazonvideo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "aiv-cdn.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "aiv-delivery.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pv-cdn.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "media-amazon.com"
+      ]
+    },
+    {
+      "domain": [
+        "atv-ps.amazon.com"
+      ]
+    },
+    {
+      "domain": [
+        "fls-na.amazon.com"
+      ]
+    },
+    {
+      "domain": [
+        "avodmp4s3ww-a.akamaihd.net"
+      ]
+    },
+    {
+      "domain": [
+        "d1v5ir2lpwr8os.cloudfront.net"
+      ]
+    },
+    {
+      "domain": [
+        "d22qjgkvxw22r6.cloudfront.net"
+      ]
+    },
+    {
+      "domain": [
+        "d25xi40x97liuc.cloudfront.net"
+      ]
+    },
+    {
+      "domain": [
+        "d27xxe7juh1us6.cloudfront.net"
+      ]
+    },
+    {
+      "domain": [
+        "dmqdd6hw24ucf.cloudfront.net"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "avoddashs"
+      ]
     }
   ]
 }

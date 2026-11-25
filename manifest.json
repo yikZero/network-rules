@@ -57,6 +57,14 @@
       "bytes": 266,
       "sha256": "7fdb0c248deb47ef938f52a7220db2b6ac1310742f5a3634f505070677e83894"
     },
+    "sing-box/prime-video.json": {
+      "bytes": 1131,
+      "sha256": "98d658656f255ac485db4245f926c4dfdd5e3964a6cb02384c7e7616a36907fd"
+    },
+    "sing-box/prime-video.srs": {
+      "bytes": 279,
+      "sha256": "1078398464d898f6975de5745d1a69b714ac816b2064a4ecb6f5c4babf41de7f"
+    },
     "sing-box/proxy-overrides.json": {
       "bytes": 257,
       "sha256": "3e37ade0f68e120c217e25c8491c577a1d667a2329b36ca2ea5d360605347d1f"
@@ -105,6 +113,10 @@
       "bytes": 671,
       "sha256": "263211fe8ceac72468ddd9c6e18a430e39cd48a31fac54eb0caeb1f864e227d4"
     },
+    "surge/prime-video.list": {
+      "bytes": 536,
+      "sha256": "cc191964c63d94e84956b62fc0169b34ff66aced85260be9d10e0e0fca491e53"
+    },
     "surge/proxy-overrides.list": {
       "bytes": 169,
       "sha256": "fb3f1a3e435bc2d9bee6bb624b466dcd53f1e6cf0fd8db014e81ffe3a7aef0ac"
@@ -118,7 +130,7 @@
       "sha256": "cb9244b09a96c7356f29a9443e9c19f67d6db1afa7c78284d4dfce29559eb9fb"
     }
   },
-  "revision": "rules-97fa8306905b6b5c5a5f771a",
+  "revision": "rules-f6ced00c29631c8e4e1c609c",
   "schema": 1,
   "sets": {
     "ai": {
@@ -193,6 +205,18 @@
       },
       "surge": "surge/google-meet.list"
     },
+    "prime-video": {
+      "dns": {
+        "binary": "sing-box/prime-video.srs",
+        "source": "sing-box/prime-video.json"
+      },
+      "entries": 15,
+      "route": {
+        "binary": "sing-box/prime-video.srs",
+        "source": "sing-box/prime-video.json"
+      },
+      "surge": "surge/prime-video.list"
+    },
     "proxy": {
       "dns": {
         "binary": "sing-box/proxy.srs",
@@ -238,5 +262,5 @@
       "sha256": "5e66a0c3798c02e8fdbdfd366c178b3273f03746e677193c35b5e4a411b6cbde"
     }
   },
-  "version": "97fa8306905b6b5c5a5f771a"
+  "version": "f6ced00c29631c8e4e1c609c"
 }

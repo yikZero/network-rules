@@ -2,7 +2,8 @@
   "rules": [
     {
       "domain": [
-        "forum.cursor.com"
+        "forum.cursor.com",
+        "gsa.apple.com"
       ]
     },
     {

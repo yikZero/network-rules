@@ -66,12 +66,12 @@
       "sha256": "1078398464d898f6975de5745d1a69b714ac816b2064a4ecb6f5c4babf41de7f"
     },
     "sing-box/proxy-overrides.json": {
-      "bytes": 257,
-      "sha256": "3e37ade0f68e120c217e25c8491c577a1d667a2329b36ca2ea5d360605347d1f"
+      "bytes": 282,
+      "sha256": "4900ac80a8039d7aa20864a2b27985aa61cb3c8deee4be6137e336f0f56ead3a"
     },
     "sing-box/proxy-overrides.srs": {
-      "bytes": 106,
-      "sha256": "530af638306e24570494d65c0d59cb125d05b07bf72707e84f3bf9ee0406b0bd"
+      "bytes": 121,
+      "sha256": "56766c5836b58b2b65edc53628f729f67392ae13aa25495cbd1ad9f34fb858e5"
     },
     "sing-box/proxy.json": {
       "bytes": 1079,
@@ -118,8 +118,8 @@
       "sha256": "cc191964c63d94e84956b62fc0169b34ff66aced85260be9d10e0e0fca491e53"
     },
     "surge/proxy-overrides.list": {
-      "bytes": 169,
-      "sha256": "fb3f1a3e435bc2d9bee6bb624b466dcd53f1e6cf0fd8db014e81ffe3a7aef0ac"
+      "bytes": 190,
+      "sha256": "1869677bb76e4fba693307a2640a50d9ec62d345846871f4d90cb46051e6bbb5"
     },
     "surge/proxy.list": {
       "bytes": 484,
@@ -130,7 +130,7 @@
       "sha256": "cb9244b09a96c7356f29a9443e9c19f67d6db1afa7c78284d4dfce29559eb9fb"
     }
   },
-  "revision": "rules-50cb0ab4de6d4459867894a3",
+  "revision": "rules-16844fcf315c3a6b16f2e436",
   "schema": 1,
   "sets": {
     "ai": {
@@ -234,7 +234,7 @@
         "binary": "sing-box/proxy-overrides.srs",
         "source": "sing-box/proxy-overrides.json"
       },
-      "entries": 4,
+      "entries": 5,
       "route": {
         "binary": "sing-box/proxy-overrides.srs",
         "source": "sing-box/proxy-overrides.json"
@@ -262,5 +262,5 @@
       "sha256": "5e66a0c3798c02e8fdbdfd366c178b3273f03746e677193c35b5e4a411b6cbde"
     }
   },
-  "version": "50cb0ab4de6d4459867894a3"
+  "version": "16844fcf315c3a6b16f2e436"
 }
